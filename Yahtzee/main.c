@@ -163,7 +163,8 @@ x_print(){
 
 int
 main(int argc, char *argv[]){
-	int i, p_6, t;
+	int i, p_6; /*the sum of first six categores*/
+	int t;
 
 	while(read_data() != 0){
 		p_6 = 0;
